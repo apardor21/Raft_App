@@ -1,0 +1,207 @@
+*{
+  padding:0px;
+  margin:0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+#header{
+  margin:40px;
+  width:900px;
+  height:10px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 36px;
+   margin-left: 415px;
+
+}
+
+ul, ol{
+  list-style:none;
+}
+
+.nav li a{
+  background-color:#1BB59F;
+  color:white;
+  text-decoration:none;
+  padding:10px 20px;
+  display:block;
+  color: white;
+  margin: 0px;
+  position: relative;
+  bottom: 60px;
+
+
+
+
+
+}
+
+
+.nav li a:hover{
+  background-color:#40A98D;
+}
+
+.nav >li{
+
+  float:left;
+
+}
+
+
+.nav li ul{
+  display:none;
+  position:absolute;
+  min-width;150px;
+}
+
+.nav li:hover > ul{
+  display:block;
+  cursor: pointer;
+
+}
+
+.nav li ul li{
+  position:relative;
+}
+.nav li ul li lu{
+
+  right:-140px;
+  top:0px;
+}
+.moral{
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+
+}
+.img{
+  width: 250px;
+  height: 160px;
+  position: fixed;
+
+}
+.imgColombia{
+  width: 140px;
+  height: 130px;
+  position: fixed;
+  margin-left: 900px;
+  margin-left: 1440px;
+  bottom: 640px;
+}
+.titleIndex{
+  width="1000px";
+  font-size: 25;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #535D58;
+  text-align: center;
+  padding: 60px;
+
+}
+.title{
+  color: #4D676B;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+
+}
+.tabla th{
+   background-color: #40E1E8;
+   -webkit-box-shadow: 6px 7px 67px 1px rgba(9,84,78,1);
+ -moz-box-shadow: 6px 7px 67px 1px rgba(9,84,78,1);
+ box-shadow: 6px 7px 67px 1px rgba(9,84,78,1);
+}
+.tabla tr:nth-child(odd){
+   background-color: white;
+}
+
+form{
+  -webkit-box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  -moz-box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  width: 40%;
+  border: 1px solid #ccc;
+  margin: 50px;
+  padding: 40px;
+
+   margin: auto;
+   display:block;
+
+
+}
+.select{
+  width: 553px;
+}
+
+
+ label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  font-family: sans-serif;
+}
+ input{
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+
+}
+.registro{
+
+  text-decoration: none;
+  color:black;
+
+}
+.registro2{
+    text-decoration: none;
+    color:black;
+    text-align:center
+  }
+.registro:hover {
+
+color:#0fd4c0 ;
+}
+.registro2:hover{
+  color:#0fd4c0 ;
+}
+.buttonSubmit{
+background-color: #24B3B3;
+color: white;
+width: 300px;
+padding: 8px;
+border: 0px;
+}
+.buttonSubmit:hover{
+  background-color: #51B3B1;
+  cursor: pointer;
+}
+.imgRegisPlus{
+  width: 90px;
+  height: 90px;
+  position:absolute; left:20px;
+  position:fixed;; bottom:20px
+
+}
+.image{
+  width: 90px;
+  height: 90px;
+  position:absolute; left:20px;
+  position:absolute; bottom:-340px;
+}
+.formularioLogin{
+  -webkit-box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  -moz-box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  box-shadow: -1px 0px 71px -2px rgba(26,199,182,0.34);
+  width: 25%;
+  border: 0px solid #ccc;
+  margin: 50px;
+  padding: 50px;
+  position:absolute;
+   margin:auto;
+   left: 0;
+   right: 0;
+   display: block;
+}
